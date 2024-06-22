@@ -14,7 +14,7 @@ namespace DayPeriodIdentifier
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter an hour (0-23):");
+            Console.WriteLine("Enter an hour from (0-23):");
             string input = Console.ReadLine();
 
             if (int.TryParse(input, out int hour) && hour >= 0 && hour <= 23)
